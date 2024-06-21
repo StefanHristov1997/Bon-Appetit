@@ -1,5 +1,6 @@
 package com.bonappetit.config;
 
+import com.bonappetit.model.dto.UserLoginDTO;
 import com.bonappetit.model.dto.UserRegisterDTO;
 import com.bonappetit.model.entity.User;
 import org.modelmapper.Converter;
@@ -19,7 +20,6 @@ public class AppConfig {
         ModelMapper modelMapper = new ModelMapper();
 
         Provider<User> newUserProvider = req -> new User();
-//        Provider<LoginUserDTO> currentUserProvider = req -> new LoginUserDTO();
 
         Converter<String, String> passwordConverter
                 = ctx -> (ctx.getSource() == null)
