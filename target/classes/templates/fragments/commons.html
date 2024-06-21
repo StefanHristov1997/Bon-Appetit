@@ -24,10 +24,15 @@
                 <li class="nav-item col-md-4">
                     <a th:unless="${@currentUserSession.isLogged()}" class="nav-link text-primary active h5 text-stroke" th:href="@{/users/register}">Register</a>
                 </li>
-
-                <li class="nav-item col-md-4">
-                    <a th:if="${@currentUserSession.isLogged()}" class="nav-link text-primary active h5 text-stroke" th:href="@{/users/logout}">Logout</a>
-                </li>
+                <form th:action="@{/users/logout}" th:method="POST" class="nav-item col-md-4">
+                    <button th:if="${@currentUserSession.isLogged()}"
+                            style="color: black"
+                            type="submit"
+                            class="logout-btn"
+                            th:href="@{/users/logout}">
+                        Logout
+                    </button>
+                </form>
             </ul>
         </div>
     </nav>

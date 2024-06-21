@@ -49,7 +49,7 @@ footer {
     text-align: center;
 }
 
-.mySticky {
+.mySticky form button {
     position: sticky;
     left: 0;
 }
@@ -72,4 +72,11 @@ footer {
 
 .table td, .table th {
     padding: 0.15rem;
+}
+
+.logout-btn {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-right: 150px;
 }
