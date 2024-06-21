@@ -32,3 +32,5 @@ logging:
     blog: WARN
 server:
   port: 8080
+
+binding-result-package: org.springframework.validation.BindingResult
