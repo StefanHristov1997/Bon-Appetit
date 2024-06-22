@@ -1,7 +1,6 @@
 package com.bonappetit.config;
 
-import com.bonappetit.model.dto.UserLoginDTO;
-import com.bonappetit.model.dto.UserRegisterDTO;
+import com.bonappetit.model.dto.binding.UserRegisterDTO;
 import com.bonappetit.model.entity.User;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;

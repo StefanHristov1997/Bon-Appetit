@@ -1,6 +1,6 @@
 package com.bonappetit.controller;
 
-import com.bonappetit.model.dto.AddRecipeDTO;
+import com.bonappetit.model.dto.binding.AddRecipeDTO;
 import com.bonappetit.service.RecipeService;
 import com.bonappetit.util.CurrentUserSession;
 import jakarta.validation.Valid;
@@ -32,7 +32,7 @@ public class RecipeController {
 
 
     @GetMapping("/add-recipe")
-    public String viewAddWord(Model model) {
+    public String viewAddRecipe(Model model) {
 
         if(!currentUserSession.isLogged()){
             return "redirect:/";
@@ -46,7 +46,7 @@ public class RecipeController {
     }
 
     @PostMapping("/add-recipe")
-    public String doAddWord(
+    public String doAddRecipe(
             @Valid AddRecipeDTO addRecipeDTO,
             BindingResult bindingResult,
             RedirectAttributes rAtt)

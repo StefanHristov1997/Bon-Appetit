@@ -1,4 +1,4 @@
-package com.bonappetit.model.dto;
+package com.bonappetit.model.dto.binding;
 
 import com.bonappetit.model.enums.CategoryNameEnum;
 import jakarta.validation.constraints.NotBlank;

@@ -1,7 +1,7 @@
 package com.bonappetit.service;
 
-import com.bonappetit.model.dto.UserLoginDTO;
-import com.bonappetit.model.dto.UserRegisterDTO;
+import com.bonappetit.model.dto.binding.UserLoginDTO;
+import com.bonappetit.model.dto.binding.UserRegisterDTO;
 
 public interface UserService {
 

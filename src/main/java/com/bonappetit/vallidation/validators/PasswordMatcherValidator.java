@@ -1,6 +1,6 @@
 package com.bonappetit.vallidation.validators;
 
-import com.bonappetit.model.dto.UserRegisterDTO;
+import com.bonappetit.model.dto.binding.UserRegisterDTO;
 import com.bonappetit.vallidation.PasswordMatcher;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

@@ -1,4 +1,4 @@
-package com.bonappetit.model.dto;
+package com.bonappetit.model.dto.binding;
 
 import com.bonappetit.vallidation.PasswordMatcher;
 import com.bonappetit.vallidation.UniqueEmail;

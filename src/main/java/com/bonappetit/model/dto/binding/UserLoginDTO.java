@@ -1,4 +1,4 @@
-package com.bonappetit.model.dto;
+package com.bonappetit.model.dto.binding;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

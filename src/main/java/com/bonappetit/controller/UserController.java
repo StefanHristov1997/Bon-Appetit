@@ -1,7 +1,7 @@
 package com.bonappetit.controller;
 
-import com.bonappetit.model.dto.UserLoginDTO;
-import com.bonappetit.model.dto.UserRegisterDTO;
+import com.bonappetit.model.dto.binding.UserLoginDTO;
+import com.bonappetit.model.dto.binding.UserRegisterDTO;
 import com.bonappetit.service.UserService;
 import com.bonappetit.util.CurrentUserSession;
 import jakarta.validation.Valid;
